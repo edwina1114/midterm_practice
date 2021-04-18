@@ -28,8 +28,8 @@ class MainActivity : AppCompatActivity() {
         drawerLayout = binding.drawerLayout
 
         ///// 設定up button(返回鈕）/////
-        val navController = this.findNavController(R.id.myNavHostFragment)
-        //NavigationUI.setupActionBarWithNavController(this, navController)
+         val navController = this.findNavController(R.id.myNavHostFragment)
+         NavigationUI.setupActionBarWithNavController(this, navController)
         ///// 設定up button(返回鈕）/////
 
         ///// 啟用側拉選單 /////

@@ -20,7 +20,11 @@
         android:id="@+id/blankFragment2"
         android:name="com.example.hw1_temperature_convert.BlankFragment2"
         android:label="BlankFragment2"
-        tools:layout="@layout/fragment_blank2"/>
+        tools:layout="@layout/fragment_blank2">
+        <argument
+            android:name="temp"
+            app:argType="string" />
+    </fragment>
     <fragment
         android:id="@+id/about"
         android:name="com.example.hw1_temperature_convert.About"
